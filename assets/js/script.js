@@ -1,24 +1,22 @@
-let button1 = document.querySelector('#btn')
-const imagem = document.querySelector('#imagem')
-let descricao = document.querySelector('#descricao')
-const nome = document.querySelector('#nome')
+let button01 = document.querySelector('#pokemonBtn')
+const imagem = document.querySelector('#pokemonGif')
+let descricao = document.querySelector('#pokemonDescricao')
+const nome = document.querySelector('#pokemonNome')
 let nomeBotao = document.querySelector('button')
+let id=1
 
-button1.addEventListener('click', ()=>{
+button01.addEventListener('click', ()=>{
     if(id === 1){
-        imagem.src = "./img/bulbasaur.gif"
-        nome.innerText = "Bulbassauro"
-        descricao.innerText = "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum"
+        imagem.src = "assets/img/ivysaur.gif"
+        nome.innerText = "Ivyssauro"
+        descricao.innerText = "Ivyssauro é um Pokémon anfíbio quadrúpede que tem a pele azul-esverdeada com manchas mais escuras. O peso da planta impede que Ivyssauro corra rápido e fique em pé nas patas traseiras e força suas pernas a crescerem de forma resistente. Quando sua flor está pronta para florescer, ela exala um aroma distinto e forte e adocicado e começa a inchar."
+        nomeBotao = "Evoluir nº3"
         id += 1
     } else if (id === 2) {
-        imagem.src = "./img/ivysaur.gif"
-        nome.innerText = "Ivysaur"
-        descricao.innerText = "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum"
-        id += 1
-    } else if (id === 3) {
-        imagem.src = "./img/venusaur.gif"
+        imagem.src = "assets/img/venusaur.gif"
         nome.innerText = "Venusaur"
-        descricao.innerText = "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum"
-        id = 1
-    }
+        descricao.innerText = "O Venussauro usa sua flor para captar os raios do sol para convertê-los em energia, o que faz com que a flor fique mais vibrante. A flor libera um perfume suave que atrai Pokémon e acalma as emoções."
+        nomeBotao = "Voltar - Evolução nº1"
+        id += 1
+    } 
 })

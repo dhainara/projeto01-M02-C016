@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Kumbh+Sans&family=Open+Sans:wght@500&family=Plus+Jakarta+Sans:wght@300&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Inter&family=Kumbh+Sans&family=Open+Sans:wght@500&family=Plus+Jakarta+Sans:wght@300&family=Poppins&display=swap');
 
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Kumbh Sans','Open Sans', sans-serif;
+    font-family: 'Inter', 'Kumbh Sans','Open Sans', sans-serif;
 
 }
 
@@ -24,6 +25,7 @@ main {
     background-image: url('https://i.pinimg.com/originals/df/4e/8b/df4e8ba28f912bf9cdf9fa0dfc196411.png');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -31,13 +33,13 @@ main {
     align-items: center;
     flex-direction: column;
     height: auto;
-
+    padding:10px 10px;
 }
 
 section#card {
     display:flex;
     flex-direction: column;
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.3);
     border-radius: 30px;
     padding:20px 20px;
     width:300px;
@@ -57,10 +59,10 @@ article{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgba(151, 240, 206, 0.7);
+    background-color: #02c39a;
     padding: 30px 20px;
     border-radius: 30px;
-
+    color:white;
 }
 
 .card_pokemon img {
@@ -69,8 +71,7 @@ article{
 .card_info h4{
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-color: rgba(200, 200, 200, 0.7);
+    background-color: #02c39a;
     color: white;
     padding: 10px 20px;
     margin:5px;
@@ -82,13 +83,13 @@ article{
     padding: 10px 20px;
 }
 
-#btn {
+#pokemonBtn {
     background-color: #FF3F75;
     border: none;
     border-radius: 30px;
     color: white;
     padding: 15px 30px;
-    margin: 20px 0;
+    margin: 10px 0 0 0;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -96,7 +97,7 @@ article{
     transition: 0.3s;
 }
 
-#btn:hover{
+#pokemonBtn:hover{
     transition: 0.3s;
     background-color:#ab0030;
 }
