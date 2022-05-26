@@ -4,12 +4,12 @@ Esse é um jogo muito simples. Utilizaremos HTML, CSS e JavaScript para criar um
 
 ## Critérios de avaliação
 <p>[X] Criação do repositório exclusivo no GitHub. (1,0)</p>
-<p>[#] Utilização de HTML, CSS e JS puros, sem utilização de framework. (1,0)</p>
-<p>[#] Botão de alteração de humor funcional. (2,0)</p>
-<p>[#] No mínimo 3 trocas de humor. (2,0)</p>
-<p>[#] No mínimo 2 elementos do DOM alterados (texto e imagem). (2,0)</p>
-<p>[#] Deploy do projeto no GitHub Pages. (1,0)</p>
-<p>[#] Responsividade aplicada (1,0)</p>
+<p>[X] Utilização de HTML, CSS e JS puros, sem utilização de framework. (1,0)</p>
+<p>[X] Botão de alteração de humor funcional. (2,0)</p>
+<p>[X] No mínimo 3 trocas de humor. (2,0)</p>
+<p>[X] No mínimo 2 elementos do DOM alterados (texto e imagem). (2,0)</p>
+<p>[X] Deploy do projeto no GitHub Pages. (1,0)</p>
+<p>[X]Responsividade aplicada (1,0)</p>
 
 ## Stacks
 As ferramentas usadas para este projeto são:
@@ -20,5 +20,4 @@ As ferramentas usadas para este projeto são:
 </div>
 
 ## Contato
-LinkedIn: https://www.linkedin.com/in/dhainara-corr%C3%AAa-7913a01b2/
-E-mail: dhainara.souza@gmail.com
+<a href="https://www.linkedin.com/in/dhainara-corr%C3%AAa-7913a01b2/"><img scr="https://cdn-icons-png.flaticon.com/512/174/174857.png"/></a>
