@@ -20,4 +20,4 @@ As ferramentas usadas para este projeto são:
 </div>
 
 ## Contato
-<a href="https://www.linkedin.com/in/dhainara-corr%C3%AAa-7913a01b2/"><img scr="https://cdn-icons-png.flaticon.com/512/174/174857.png"/></a>
+<a href="https://www.linkedin.com/in/dhainara-corr%C3%AAa-7913a01b2/"><img href="https://cdn-icons-png.flaticon.com/512/174/174857.png"/></a>
